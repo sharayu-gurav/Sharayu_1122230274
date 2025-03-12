@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CozyCrochet - Clothing</title>
+    <style>
+        body {
+            background-color: #FDF5E6; /* Soft beige crochet vibe */
+            color: #5D4037; /* Warm brown text */
+            font-family: 'Georgia', serif;
+            margin: 20px;
+            border: 20px solid #EED6B4;
+            text-align: center; /* Center-align text globally */
+        }
+        header {
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        h2 {
+            margin-top: 40px;
+            font-size: 1.8rem;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap; /* Allow sections to wrap */
+            justify-content: center; /* Center the sections horizontally */
+            gap: 30px;
+            padding: 20px;
+        }
+        .section {
+            background-color: #FAEBD7; /* Section background color */
+            border: 2px solid #8B4513; /* Border color */
+            border-radius: 15px;
+            padding: 15px;
+            width: 250px; /* Set fixed width for the section */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            color: #5D4037; /* Text color */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+        .crochet-card img {
+            width: 100%; /* Make image fill the width of the card */
+            border-radius: 10px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #8B4513; /* Button background color */
+            color: #FAEBD7; /* Button text color */
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #D2B48C; /* Button hover color */
+            color: #5D4037; /* Button text hover color */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CozyCrochet - Clothing</h1>
+        <nav>
+          <a href="COZY Crochet.html" class="btn"> Home</a>
+        <a href="Clothing section.html" class="btn">Clothing</a>
+            <a href="contact us.html" class="btn">Contact Us</a>
+        </nav>
+    </header>
+
+    <h2>Explore Our Handmade Clothing</h2>
+
+    <div class="container">
+        <!-- Handmade Sweater Section -->
+        <article class="section">
+            <h2>Cozy Sweater</h2>
+            <div class="crochet-card">
+                <img src="https://i.pinimg.com/736x/21/aa/d5/21aad53baba09d994669dd59e3df44f1.jpg">
+                <p>Warm and stylish crochet sweaters for those chilly days.</p>
+                <a href="clothing.html" class="btn">View More</a>
+            </div>
+        </article>
+
+        <!-- Summer Top Section -->
+        <article class="section">
+            <h2>Summer Top</h2>
+            <div class="crochet-card">
+                <img src="https://i.pinimg.com/736x/22/ff/37/22ff37b1a51b3eb161d9f171978585d9.jpg">
+                <p>Light and breathable crochet tops for sunny days.</p>
+                <a href="clothing.html" class="btn">View More</a>
+            </div>
+        </article>
+
+        <!-- Casual Dress Section -->
+        <article class="section">
+            <h2>Casual Dress</h2>
+            <div class="crochet-card">
+                <img src="https://i.etsystatic.com/27180249/c/1834/1834/0/614/il/131b1d/3376351961/il_300x300.3376351961_2ab2.jpg">
+                <p>Easy-to-wear crochet dresses for a relaxed look.</p>
+                <a href="clothing.html" class="btn">View More</a>
+            </div>
+        </article>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 CozyCrochet. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
+

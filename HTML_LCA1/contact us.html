@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CozyCrochet - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #FDF5E6; 
+            color: #5D4037; 
+            font-family: 'Georgia', serif;
+            border: 20px solid #EED6B4; 
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        h2 {
+            font-size: 1.8rem;
+            color: #5D4037;
+        }
+        .contact-form {
+            background-color: #FAEBD7;
+            border: 2px solid #8B4513;
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 1.1rem;
+            margin-bottom: 5px;
+        }
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #8B4513;
+            border-radius: 5px;
+        }
+        .form-group textarea {
+            resize: vertical;
+        }
+        .btn-submit {
+            background-color: #8B4513;
+            color: #FAEBD7;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .btn-submit:hover {
+            background-color: #D2B48C;
+            color: #5D4037;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding-top: 10px;
+        }
+        .nav-links a {
+            color: #5D4037;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav class="nav-links">
+            <a href="Cozy Crochet.html">Home</a>
+            <a href="contact us.html">Contact Us</a>
+            <a href="bags.html">Crochet Bags</a>
+            <a href="Clothing section.html"> Clothing</a>
+            <a href="coasters.html">Coasters</a>
+            <a href="toys.html">Toys</a>
+            <a href="decor.html">Home Decor</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Get in Touch</h2>
+        <p>If you have any questions or inquiries, feel free to reach out to us. We would love to hear from you!</p>
+
+        <div class="contact-form">
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn-submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p style="text-align: center;">&copy; 2025 CozyCrochet. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        alert("Thank you for visiting our Contact Us page! We look forward to hearing from you.");
+    </script>
+</body>
+</html>

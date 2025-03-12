@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CozyCrochet - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #FDF5E6; /* Soft beige crochet vibe */
+            color: #5D4037; /* Warm brown text */
+            font-family: 'Georgia', serif;
+            border: 20px solid #EED6B4; /* Crochet-inspired border */
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap; /* Allow sections to wrap to the next line if necessary */
+            justify-content: center; /* Center the sections horizontally */
+            gap: 30px; /* Add space between sections */
+            padding: 20px;
+        }
+        .section {
+            background-color: #FAEBD7;
+            border: 2px solid #8B4513;
+            border-radius: 15px;
+            padding: 15px;
+            width: 250px; /* Set a fixed width for the section */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+            color: #5D4037;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+        .crochet-card img {
+            width: 100%; /* Make image fill the width of the card */
+            border-radius: 10px;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #8B4513;
+            color: #FAEBD7;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #D2B48C;
+            color: #5D4037;
+        }
+        .nav-links {
+            display: flex;
+            justify-content: center; /* Center navigation links */
+            gap: 20px; /* Space between links */
+            padding-top: 10px;
+        }
+        .nav-links a {
+            color: #5D4037;
+            text-decoration: none;
+            padding: 0 10px;
+        }
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+        header {
+            text-align: center; /* Center the header content */
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2.5rem;
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CozyCrochet</h1>
+        <nav class="nav-links">
+            <a href="Cozy Crochet.html"> Home</a>
+            <a href="contact us.html">Contact Us</a>
+            <a href="bags.html">Crochet Bags</a>
+            <a href="Clothing section.html">Clothing</a>
+            <a href="coasters.html">Coasters</a>
+            <a href="toys.html">Toys</a>
+            <a href="decor.html">Home Decor</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <article class="section">
+            <h2>Handmade Bags</h2>
+            <div class="crochet-card">
+                <img src="https://joyofmotioncrochet.com/wp-content/uploads/2025/02/boho-tassel-crochet-bag-1.jpg" alt="Crochet Bag">
+                <h3>Boho Shoulder Bags</h3>
+                <a href="bags.html" class="btn">View More</a>
+            </div>
+        </article>
+
+        <article class="section">
+            <h2>Clothing</h2>
+            <div class="crochet-card">
+                <img src="https://i.pinimg.com/736x/e8/b6/a5/e8b6a5c0440eac71f6d230d172ce328c.jpg" alt="Crochet Clothing">
+                <h3>Cozy Sweaters</h3>
+                <a href="Clothing section.html" class="btn">View More</a>
+            </div>
+        </article>
+
+        <article class="section">
+            <h2>Coasters</h2>
+            <div class="crochet-card">
+                <img src="https://i.pinimg.com/474x/00/98/e5/0098e59d8731584475d2a49cde884436.jpg" alt="Coasters">
+                <h3>Floral Coasters</h3>
+                <a href="coasters.html" class="btn">View More</a>
+            </div>
+        </article>
+    </div>
+
+    <h2 style="margin-top: 40px;">Shop by Theme</h2>
+    <div class="container">
+        <article class="section">
+            <img src="https://i.ebayimg.com/images/g/dEAAAOSwmBhiOEmJ/s-l1200.jpg" alt="Boho Style" width="100%">
+            <h2>Boho Style</h2>
+            <p>Explore crochet designs perfect for a relaxed, carefree vibe.</p>
+        </article>
+        <article class="section">
+            <img src="https://i.pinimg.com/736x/ed/ef/0d/edef0d042a937c4849e52a2122170c21.jpg" alt="=Minimalistic Style" width="100%">
+            <h2>Minimalistic</h2>
+            <p>Simple, clean designs that enhance your modern space.</p>
+        </article>
+        <article class="section">
+            <img src="https://i.etsystatic.com/32404206/r/il/7ee9e9/5925766851/il_fullxfull.5925766851_pi5w.jpg" width="100%">
+            <h2>Vintage</h2>
+            <p>Timeless crochet pieces that bring elegance and charm.</p>
+        </article>
+    </div>
+
+    <aside style="text-align: center;">
+        <h3>Special Offers!</h3>
+        <p style="text-align: center;">Sign up for our newsletter to get exclusive discounts.</p>
+    </aside>
+
+    <footer>
+        <p style="text-align: center;">&copy; 2025 CozyCrochet. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        alert("Welcome to CozyCrochet! Discover beautiful handmade creations.");
+    </script>
+</body>
+</html>
